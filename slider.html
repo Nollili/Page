@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="slider.css">
+  <title>KÉPEK</title>
+</head>
+
+<body>
+
+  <div class="button-container">
+    <a href="/mainpage/index.html">
+      <button> VISSZA </button>
+    </a>
+  </div>
+
+  <div class="container">
+    <!-- main images -->
+    <div class="holder">
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.20.14 Saci köntösben.jpeg" alt="" />
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.20.33 Ez egy gomb.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.20.48 Már 11 vagyok.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.20.48 Saci Apa hátán.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.21.03 Saci kiöltözött.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.21.38 Saci kedvenc helye.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.21.54 Saci a konyhafiókban.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-10-02 at 21.21.55 Saci alszik a babakocsiban.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.16.17 Saci a nappaliban.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.17.40 Saci az asztalánál.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.17.54 Saci örül az asztalnak.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.18.07 Saci és Ákos a dombtetőn.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.18.15 Saci alszik hazafelé.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.18.52 Saci ákos és a karácsonyfa.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.20.03 Saci a Mikulásnál.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.20.14 Saci és Andi szelfiznek.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.35 Saci bealudt a sétán.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.35 Saci eszik Ákossal.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.35 Ákos 33.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.53 Apa mesét olvas.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.53 Saci böriben.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.53 Saci evés előtt.jpeg">
+      </div>
+
+      <div class="slides">
+        <img src="/imageslider/img/2020-12-24 at 13.21.53 Saci lefekvés előtt.jpeg">
+      </div>
+      <div class="slides">
+        <img src="/imageslider/img/Saci fürdés után.jpg">
+      </div> 
+
+      <!--<div class="slides">
+        <img src="">
+      </div> -->
+
+    </div>
+
+    <div class="prevContainer"><a class="prev" onclick="plusSlides(-1)">
+        <svg viewBox="0 0 24 24">
+          <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+        </svg>
+      </a></div>
+    <div class="nextContainer"><a class="next" onclick="plusSlides(1)">
+        <svg viewBox="0 0 24 24">
+          <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+        </svg>
+      </a></div>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- thumnails in a row -->
+    <div class="row">
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.20.14 Saci köntösben.jpeg"
+          onclick="currentSlide(1)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.20.33 Ez egy gomb.jpeg"
+          onclick="currentSlide(2)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.20.48 Már 11 vagyok.jpeg"
+          onclick="currentSlide(3)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.20.48 Saci Apa hátán.jpeg"
+          onclick="currentSlide(4)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.21.03 Saci kiöltözött.jpeg"
+          onclick="currentSlide(5)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.21.38 Saci kedvenc helye.jpeg"
+          onclick="currentSlide(6)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.21.54 Saci a konyhafiókban.jpeg"
+          onclick="currentSlide(7)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-10-02 at 21.21.55 Saci alszik a babakocsiban.jpeg"
+          onclick="currentSlide(8)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.16.17 Saci a nappaliban.jpeg"
+          onclick="currentSlide(9)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.17.40 Saci az asztalánál.jpeg"
+          onclick="currentSlide(10)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.17.54 Saci örül az asztalnak.jpeg"
+          onclick="currentSlide(11)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.18.07 Saci és Ákos a dombtetőn.jpeg"
+          onclick="currentSlide(12)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.18.15 Saci alszik hazafelé.jpeg"
+          onclick="currentSlide(13)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.18.52 Saci ákos és a karácsonyfa.jpeg"
+          onclick="currentSlide(14)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.20.03 Saci a Mikulásnál.jpeg"
+          onclick="currentSlide(15)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.20.14 Saci és Andi szelfiznek.jpeg"
+          onclick="currentSlide(16)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.35 Saci bealudt a sétán.jpeg"
+          onclick="currentSlide(17)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.35 Saci eszik Ákossal.jpeg"
+          onclick="currentSlide(18)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.35 Ákos 33.jpeg"
+          onclick="currentSlide(19)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.53 Apa mesét olvas.jpeg"
+          onclick="currentSlide(20)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.53 Saci böriben.jpeg"
+          onclick="currentSlide(21)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.53 Saci evés előtt.jpeg"
+          onclick="currentSlide(22)">
+      </div>
+      <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/2020-12-24 at 13.21.53 Saci lefekvés előtt.jpeg"
+          onclick="currentSlide(23)">
+      </div>
+      
+        <div class="column">
+        <img class="slide-thumbnail" src="/imageslider/img/Saci fürdés után.jpg" onclick="currentSlide(24)" >
+      </div>
+      
+      <!--
+        <div class="column">
+        <img class="slide-thumbnail" src="" onclick="currentSlide()" >
+      </div>
+      -->
+
+    </div>
+  </div>
+
+  <script src="slider.js"></script>
+</body>
+
+</html>
